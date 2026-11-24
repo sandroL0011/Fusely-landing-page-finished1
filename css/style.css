@@ -494,6 +494,13 @@ header {
     letter-spacing: -1px;
 }
 
+@media (max-width:576px) {
+    .blog-section-header h2 {
+        font-size: 34px;
+        line-height: 40px;
+    }
+}
+
 .blog-section-header a {
     padding: 16px 30px;
     color: rgba(108, 99, 255, 1);
